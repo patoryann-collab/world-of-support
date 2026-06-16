@@ -2,6 +2,7 @@
 
 import Hero from '@/components/home/Hero'; // Importez votre nouveau composant
 import TrustBar from '@/components/home/TrustBar';
+import HowItWorks from '@/components/home/HowItWorks';
 
 const mockPageData = [
   {
@@ -22,6 +23,7 @@ export default function Home() {
       {/* Soit vous ajoutez le composant Hero directement en attendant la mise à jour du Mapper */}
       <Hero />
       <TrustBar />
+      <HowItWorks />
     </main>
   );
 }
