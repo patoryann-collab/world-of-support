@@ -3,6 +3,7 @@
 import Hero from '@/components/home/Hero'; // Importez votre nouveau composant
 import TrustBar from '@/components/home/TrustBar';
 import HowItWorks from '@/components/home/HowItWorks';
+import Categories from '../components/home/Categories';
 
 const mockPageData = [
   {
@@ -24,6 +25,7 @@ export default function Home() {
       <Hero />
       <TrustBar />
       <HowItWorks />
+      <Categories />
     </main>
   );
 }
