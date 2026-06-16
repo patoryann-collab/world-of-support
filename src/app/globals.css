@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  
+  /* Couleurs extraites de votre logo.png */
+  --color-world-green: #294628; 
+  --color-world-red: #ea3636;
+}
+
+@layer base {
+  body {
+    /* La classe appliquée au layout remplacera cela, 
+       mais c'est une bonne base */
+    font-feature-settings: "cv02", "cv03", "cv04";
+  }
+}
