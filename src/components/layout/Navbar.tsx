@@ -12,7 +12,7 @@ export default function Navbar() {
     { 
       title: "À propos", 
       subItems: [
-        { name: "Mission & Vision", href: "/about/mission" },
+        { name: "Mission & Vision", href: "/about" },
         { name: "Partenaires", href: "/about/partners" }
       ] 
     },

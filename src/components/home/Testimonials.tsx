@@ -14,7 +14,7 @@ const testimonials = [
     role: "Digital Marketer",
     title: "A Journey of Growth",
     text: "Companies outside the their also use Data Fanatics' services. We are now already active in the following countries?",
-    image: "/avatar2.jpg"
+    image: "/Ibrice.PNG"
   },
   {
     name: "Barbara Ravindran",

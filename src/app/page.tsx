@@ -6,6 +6,7 @@ import HowItWorks from '@/components/home/HowItWorks';
 import Categories from '../components/home/Categories';
 import JobMarketplace from '../components/home/JobMarketplace';
 import Testimonials from '../components/home/Testimonials';
+import Footer from '../components/layout/Footer';
 
 const mockPageData = [
   {
@@ -30,6 +31,7 @@ export default function Home() {
       <Categories />
       <JobMarketplace />
       <Testimonials />
+      <Footer />
     </main>
   );
 }
