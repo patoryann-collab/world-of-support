@@ -8,8 +8,8 @@ import Image from 'next/image';
 
 export default function RegisterForm() {
 
-    const { isLoaded, signUp } = useSignUp()
-    
+    const { signUp } = useSignUp()
+
   const router = useRouter()
 
   // Détecter quand l'inscription est terminée
