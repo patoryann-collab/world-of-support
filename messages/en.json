@@ -1,0 +1,24 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "current_lang": "EN",
+    "about": {
+      "title": "About Us",
+      "mission": "Mission & Vision",
+      "partners": "Partners"
+    },
+    "services": {
+      "title": "Programs & Services",
+      "jobs": "Job Opportunities",
+      "training": "Training",
+      "fellowships": "Fellowships & Scholarships",
+      "employers": "Employer Resources",
+      "volunteering": "Volunteering"
+    },
+    "news": "News",
+    "contact": "Contact",
+    "login": "Login",
+    "signup": "Sign Up",
+    "select_language": "Select your language"
+  }
+}

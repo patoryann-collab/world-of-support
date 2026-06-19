@@ -7,7 +7,7 @@ const testimonials = [
     role: "Digital Marketer",
     title: "Excellent Job Marketplace",
     text: "Companies outside the their also use Data Fanatics' services. We are now already active in the following countries?",
-    image: "/avatar1.jpg"
+    image: "/person.jpg"
   },
   {
     name: "Ibrice",

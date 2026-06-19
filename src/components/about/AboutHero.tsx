@@ -37,14 +37,7 @@ export default function AboutHero() {
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {stats.map((stat, index) => (
-            <div key={index} className="p-6 border border-gray-200 text-center hover:shadow-lg transition-shadow">
-              <h3 className="text-4xl font-bold text-yellow-500 mb-2">{stat.value}</h3>
-              <p className="text-sm text-gray-600 font-medium">{stat.label}</p>
-            </div>
-          ))}
-        </div>
+        
       </div>
     </section>
   );

@@ -1,37 +1,7 @@
-// src/app/page.tsx
+// app/page.tsx
+import { redirect } from 'next/navigation';
 
-import Hero from '@/components/home/Hero'; // Importez votre nouveau composant
-import TrustBar from '@/components/home/TrustBar';
-import HowItWorks from '@/components/home/HowItWorks';
-import Categories from '../components/home/Categories';
-import JobMarketplace from '../components/home/JobMarketplace';
-import Testimonials from '../components/home/Testimonials';
-import Footer from '../components/layout/Footer';
-
-const mockPageData = [
-  {
-    id: '1',
-    component_type: 'hero_banner', // Assurez-vous que votre ComponentMapper gère ce type
-    content: {
-      // Mettez à jour les données si nécessaire
-    }
-  }
-];
-
-export default function Home() {
-  return (
-    <main>
-      {/* Soit vous utilisez votre mapper */}
-      <div className="h-15 md:h-15" />
-      
-      {/* Soit vous ajoutez le composant Hero directement en attendant la mise à jour du Mapper */}
-      <Hero />
-      <TrustBar />
-      <HowItWorks />
-      <Categories />
-      <JobMarketplace />
-      <Testimonials />
-      <Footer />
-    </main>
-  );
+export default function RootPage() {
+  // Redirige automatiquement vers la locale par défaut (ex: 'fr')
+  redirect('/fr');
 }

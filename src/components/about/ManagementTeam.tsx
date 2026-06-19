@@ -35,7 +35,7 @@ export default function ManagementTeam() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.2 }}
               className="flex flex-col md:flex-row items-center gap-12 w-full"
             >
               {/* Image grand format */}

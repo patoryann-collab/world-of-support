@@ -6,18 +6,18 @@ import HubIcon from '@mui/icons-material/Hub';
 export default function MissionSection() {
   const missions = [
     {
-      title: "Faciliter l'accès au marché du travail",
-      desc: "Atténuer le chômage et le sous-emploi en connectant directement les chercheurs d'emploi aux opportunités pertinentes.",
+      title: "Facilitating access to the job market",
+      desc: "Mitigating unemployment and underemployment by directly connecting job seekers with relevant opportunities.",
       icon: <WorkIcon className="text-2xl" />
     },
     {
-      title: "Support humanitaire et outils pro",
-      desc: "Fournir une assistance stratégique et des outils professionnels adaptés aux besoins des chercheurs d'emploi et apprentis.",
+      title: "Humanitarian support and professional tools",
+      desc: "Providing strategic assistance and professional tools tailored to the needs of job seekers and apprentices.",
       icon: <VolunteerActivismIcon className="text-2xl" />
     },
     {
-      title: "Hub d'information central",
-      desc: "Diffuser une intelligence critique sur l'emploi et l'entrepreneuriat au public, aux médias et aux décideurs politiques.",
+      title: "Centralized information hub",
+      desc: "Disseminating critical insights on employment and entrepreneurship to the public, media, and policymakers.",
       icon: <HubIcon className="text-2xl" />
     }
   ];
@@ -26,11 +26,10 @@ export default function MissionSection() {
     <section className="flex flex-col md:flex-row min-h-[500px]">
       {/* Côté Sombre (Vert profond) */}
       <div className="bg-[#064e3b] text-white p-12 md:w-1/3 flex flex-col justify-center">
-        <span className="text-green-200 uppercase tracking-widest text-sm mb-2">Notre Mission</span>
+        <span className="text-green-200 uppercase tracking-widest text-sm mb-2">Our Mission</span>
         <h2 className="text-4xl font-bold mb-6">World Of <span className="text-[#f59e0b]">SUPPORT</span></h2>
         <p className="text-green-50 text-sm leading-relaxed mb-6">
-          Une organisation internationale portée par un réseau mondial de bénévoles dévoués, 
-          priorisant l'avancement local par l'autonomisation de la jeunesse.
+          An international organization driven by a global network of dedicated volunteers, prioritizing local advancement through youth empowerment.
         </p>
       </div>
 
