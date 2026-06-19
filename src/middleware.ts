@@ -9,6 +9,7 @@ const handleI18nRouting = createMiddleware(routing);
 // 2. Définir les routes publiques (non protégées)
 const isPublicRoute = createRouteMatcher([
   '/', 
+  '/:locale',
   '/:locale/signup(.*)', 
   '/:locale/login(.*)'
 ]);
