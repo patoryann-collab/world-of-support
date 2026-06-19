@@ -6,8 +6,19 @@ import { updateUserRole } from '@/lib/actions/auth';
 export default function RoleSelectionForm({ userId }: { userId: string }) {
   const [role, setRole] = useState('candidat');
 
+  // Mise à jour : Création d'une fonction wrapper pour satisfaire le typage de l'attribut 'action'
+  const handleAction = async (formData: FormData) => {
+    try {
+      const result = await updateUserRole(formData);
+      // Vous pouvez gérer le résultat ici (ex: afficher un toast ou une alerte)
+      console.log(result);
+    } catch (error) {
+      console.error("Erreur lors de la mise à jour du rôle :", error);
+    }
+  };
+
   return (
-    <form action={updateUserRole} className="p-8 bg-white shadow-lg rounded-2xl w-full max-w-sm">
+    <form action={handleAction} className="p-8 bg-white shadow-lg rounded-2xl w-full max-w-sm">
       <input type="hidden" name="userId" value={userId} />
       
       <p className="block mb-6 font-medium text-gray-700">Je souhaite m'inscrire en tant que :</p>
