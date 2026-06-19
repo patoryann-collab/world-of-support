@@ -10,6 +10,7 @@ const handleI18nRouting = createMiddleware(routing);
 const isPublicRoute = createRouteMatcher([
   '/', 
   '/:locale',
+  '/:locale/about',
   '/:locale/signup(.*)', 
   '/:locale/login(.*)'
 ]);
