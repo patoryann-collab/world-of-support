@@ -8,13 +8,8 @@ export default function RoleSelectionForm({ userId }: { userId: string }) {
 
   // Mise à jour : Création d'une fonction wrapper pour satisfaire le typage de l'attribut 'action'
   const handleAction = async (formData: FormData) => {
-    try {
       const result = await updateUserRole(formData);
-      // Vous pouvez gérer le résultat ici (ex: afficher un toast ou une alerte)
-      console.log(result);
-    } catch (error) {
-      console.error("Erreur lors de la mise à jour du rôle :", error);
-    }
+
   };
 
   return (
